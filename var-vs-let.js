@@ -5,11 +5,20 @@ function run() {
     console.log(foo, bar)
     {
         let baz = 'Bazz'
-        console.log(baz);
+        console.log(baz)
         console.log(bar)
     }
 
-    // console.log(baz); // ReferenceError
+    // console.log(baz) // ReferenceError
 }
 
-run();
+// run()
+
+// Hoisting
+function run2() {
+    console.log(foo)
+    var foo = "Foo"
+    console.log(foo)
+}
+
+run2()
