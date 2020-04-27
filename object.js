@@ -14,3 +14,7 @@ console.log(plant);
 plant["soil"] = "Trustbasket"
 
 console.log(plant)
+
+delete plant.sizeInches
+
+console.log(plant)
