@@ -6,3 +6,11 @@ const plant = {
 
 console.log("Plants color is " + plant.color)
 console.log("Access property using brackets " + plant["plant name"]);
+
+plant.color = "Burgundy"
+
+console.log(plant);
+
+plant["soil"] = "Trustbasket"
+
+console.log(plant)
