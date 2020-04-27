@@ -25,6 +25,7 @@ for (var i = 0; i < twoDimenArray.length; i++) {
 }
 
 console.log("Before push, the array is : " + twoDimenArray)
+// Adds an element to the end of the array.
 twoDimenArray.push(["Snake Plant", 6])
 console.log("After push, the array is : " + twoDimenArray)
 
@@ -34,4 +35,8 @@ console.log("After pop, the array is : " + twoDimenArray)
 // Can only remove the first item.
 twoDimenArray.shift()
 console.log("After shift, the array is : " + twoDimenArray)
+
+twoDimenArray.unshift(["Areca Palm", 2])
+console.log("After unshift, the array is : " + twoDimenArray)
+
 
