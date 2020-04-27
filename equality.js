@@ -1,10 +1,10 @@
 function isStrictEqualToSeven(number) {
-    // doesn't cast.
+    // doesn't cast. same with !==
     return number === 7
 }
 
 function isEqualToSeven(number) {
-    // casts the given object to integer
+    // casts the given object to integer. same with !=
     return number == 7
 }
 
